@@ -1,7 +1,50 @@
+body {
+    background-color: #f2f2f2;
+}
 .form {
-    background-color: lightgray;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-  }
-  
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+form {
+    display: inline-block;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+}
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #666;
+}

@@ -12,18 +12,27 @@
 			<tr>
 				<th>EMPLOYEE NAME</th>
 				<th>EMPLOYEE ID</th>
-				<th>DATE</th>
+				<th>DATE</th> 
+                <th colspan="2">Action</th> 
 			</tr>
+            <tr></tr>
+                <td>Sonam Wangmo</td>
+                <td>101020567568</td>
+                <td>14/10/2000</td>
+                <td><button  onclick="location.href='update.html'">Edit</button>
+                    <button  onclick="location.href='delete.html'">Delete</button>
+                </td>
+               
+            </tr>
+        
 		</table>
 
-		<div class="options">
-			<h3>OPTIONS</h3>
-			<ul>
-				<li><a href="add.html">1.ADD EMPLOYEE</a></li>
-				<li><a href="delete.html">2.REMOVE EMPLOYEE</a></li>
-				<li><a href="update.html">3.UPDATE EMPLOYEE</a></li>
-			</ul>
-		</div>
+        <div>
+            <button onclick="location.href='add.html'">ADD EMPLOYEE</button>
+            <button onclick="location.href='delete.html'">REMOVE EMPLOYEE</button>
+            <button onclick="location.href='update.html'">UPDATE EMPLOYEE</button>
+          </div>
+          
 	</div>
 </body>
 </html>
